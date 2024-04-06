@@ -6,12 +6,12 @@ import br.com.locadora.model.Veiculo;
 import javax.swing.*;
 import java.io.IOException;
 
-public class Main {
+public class vvvMain {
     public static void main(String[] args) throws IOException {
         Veiculo x1 = new Veiculo("05042024", "BMW", "X1", 2024);
         Veiculo ferrari = new Veiculo("257522", "Ferrari", "Super Fast", 2024);
         Veiculo Porshe = new Veiculo("417522", "Porshe", "911", 2024);
-        Veiculo Mustang = new Veiculo("684644", "Mustang", "GT", 2024);
+        Veiculo Mustang = new Veiculo("684644", "Mustang", "GT", 2023);
 
         // pegar dados do cliente
         String nome = JOptionPane.showInputDialog(null, "Digite o nome do cliente");
